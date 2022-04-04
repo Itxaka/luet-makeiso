@@ -39,6 +39,7 @@ type LuetRepository struct {
 	Enable   bool     `yaml:"enable"`
 	Urls     []string `yaml:"urls"`
 	Type     string   `yaml:"type"`
+	Arch	 string	  `yaml:"arch"`
 	Priority int      `yaml:"priority"`
 }
 
